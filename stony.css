@@ -1,0 +1,60 @@
+@import url('https://use.typekit.net/orc8tom.css');
+
+*,html,body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*Template*/
+:root {
+    font-size: 15px;
+    --bg-primary: #000000;
+    --bg-secondary: #808080;
+    --txt-primary: #000000;
+    --txt-secondary: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--txt-secondary);
+    margin-bottom: 0.25em;
+}
+
+.st-font {
+    font-family: sniglet,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    color: var(--txt-secondary);
+    background-color: var(--bg-primary);
+    
+    font-family: sniglet,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-container {
+    text-align: center;
+    width: 100%;
+}
+      
+.links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
