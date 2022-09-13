@@ -17,6 +17,15 @@
     --txt-secondary: white;
 }
 
+body {
+    color: var(--txt-secondary);
+    background-color: var(--bg-primary);
+    
+    font-family: sniglet,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--txt-secondary);
     margin-bottom: 0.25em;
@@ -25,15 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 .st-font {
     font-family: sniglet,sans-serif;
     font-weight: 700;
-    font-style: normal;
-}
-
-body {
-    color: var(--txt-secondary);
-    background-color: var(--bg-primary);
-    
-    font-family: sniglet,sans-serif;
-    font-weight: 400;
     font-style: normal;
 }
 
@@ -57,4 +57,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.light-mode {
+  background-color: white;
+  color: var(--txt-primary);
 }
