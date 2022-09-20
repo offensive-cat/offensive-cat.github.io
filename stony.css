@@ -26,15 +26,27 @@ body {
     font-style: normal;
 }
 
+.st-font {
+    font-family: sniglet,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
+    font-family: sniglet,sans-serif;
+    font-weight: 700;
     color: var(--txt-secondary);
     margin-bottom: 0.25em;
 }
 
-.st-font {
-    font-family: sniglet,sans-serif;
-    font-weight: 700;
-    font-style: normal;
+.image-container {
+    border-radius: 50%;
+}
+
+#main-title {
+    margin-top:-25pt; 
+    margin-bottom: -4pt; 
+    letter-spacing: 1.75pt
 }
 
 .container {
