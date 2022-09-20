@@ -4,8 +4,8 @@ function darkLightToggle() {
    let textTitle = document.getElementById("main-title")
    let linkTrees = document.getElementById("link-tree")
 
-   var imgDark = "./assets/icon/Nuclear's WM 2022 (dark mode).png"
-   var imgLight = "./assets/icon/Nuclear's WM 2022 (light mode).png"
+   var imgDark = "./media/icon/Nuclear's WM 2022 (dark mode).png"
+   var imgLight = "./media/icon/Nuclear's WM 2022 (light mode).png"
    
    //change theme
    element.classList.toggle("light-mode")
@@ -34,4 +34,4 @@ function darkLightToggle() {
       imgElement.setAttribute('src', imgDark);
     }
 }
-console.log(darkLightToggle())
+
