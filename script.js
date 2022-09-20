@@ -10,6 +10,8 @@ function darkLightToggle() {
    //change theme
    element.classList.toggle("light-mode")
 
+   //change Profile Picture
+
    //change text color
    if (textTitle.getAttribute('style') === "color: black") {
       textTitle.setAttribute('style', "color: white")
@@ -17,6 +19,7 @@ function darkLightToggle() {
       textTitle.setAttribute('style', "color: black")
    }
 
+   //change lintree color
    if (linkTrees.getAttribute('class') === 'w3-black') {
       linkTrees.setAttribute('class', 'w3-white')
    } else {
